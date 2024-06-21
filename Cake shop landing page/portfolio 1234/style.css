@@ -1,0 +1,153 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: wheat;
+    padding-top: 70px;
+}
+
+#main1{
+    margin: auto;
+    margin-bottom: 140px;
+    background-color: lavender;
+    width: 1160px;
+    height: 500px;
+    padding: 44px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 1px cyan;
+}
+
+.img1{
+    margin: auto;
+    height: 475px;
+    width: 415px;
+    border-radius: 100%;
+    position: relative;
+    left: 92px;
+
+}
+
+.name{
+    font-family: "Sedgwick Ave Display", cursive;
+    font-size: 119px;
+    position: absolute;
+    right: 425px;
+    top: 151px;
+}
+
+.sname{
+    font-family: "Sedgwick Ave Display", cursive;
+    font-size: 119px;
+    position: absolute;
+    right: 237px;
+    top: 292px;
+}
+
+.me{
+    font-size: 25px;
+    color: lavender;
+    font-weight: 700;
+    position: absolute;
+    right: 296px;
+    top: 515px;
+}
+
+.option{
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 58px;
+    margin-right: 71px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: orangered;
+}
+
+#main2{
+    margin: auto;
+    margin-bottom: 140px;
+    background-color: lavender;
+    width: 1160px;
+    height: 500px;
+    padding: 44px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 1px cyan;
+}
+
+.img2{
+    margin: auto;
+    height: 326px;
+    width: 288px;
+    border-radius: 50%;
+    margin-bottom: 18px;
+}
+
+.nme1{
+    margin: 0;
+    position: relative;
+    left: 29px;
+}
+
+.abt1{
+    position: relative;
+    left: 18px;
+}
+
+.des{
+    position: relative;
+    left: 343px;
+    top: -411px;
+    text-align: justify;
+    width: 780px;
+    font-size: 20px;
+}
+
+#skills{
+    margin: auto;
+    margin-bottom: 140px;
+    background-color: lavender;
+    width: 1160px;
+    height: 500px;
+    padding: 44px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 1px black;
+}
+
+#contact{
+    margin: auto;
+    margin-bottom: 100px;
+    background-color: lavender;
+    width: 1160px;
+    height: 500px;
+    padding: 44px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 1px black;
+}
+
+#contact h1{
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
+.cnt{
+    position: relative;
+    top: 140px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skls{
+    margin-top: 50px;
+    display: flex;
+    font-size: 25px;
+    justify-content: space-around;
+}
